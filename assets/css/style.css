@@ -26,6 +26,10 @@ header {
     background-color: #C2BB98;
   }
 
+h1 {
+    font-family: 'lato', sans-serif;
+}
+
 main {
     background-color: #DEAEB5;
     font-family: sans-serif;
