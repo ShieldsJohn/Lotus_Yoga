@@ -46,11 +46,27 @@ h1 {
 
 }
 
+#menu {
+    list-style-type: none;
+    font-size: 125%;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    
+}
+
+#menu > li {
+    margin-bottom: 1em; 
+}
+
+.active {
+    border-bottom: 1px solid #8C8665;
+}
+
 main {
     background-color: #DEAEB5;
     font-family: sans-serif;
     flex: 1 0 auto;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 footer {
