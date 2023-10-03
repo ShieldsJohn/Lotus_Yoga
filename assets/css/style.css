@@ -21,7 +21,7 @@ background-color: #DEAEB5;
 /*header font*/
 header {
     font-size: 10px;
-    color:#3a3a3a;
+    color:#8C8665;
     font-family: sans-serif;
     /*background-color: #C2BB98;*/
     background-color: #ffffff;
@@ -37,12 +37,12 @@ header {
 
   header a {
     text-decoration: none;
-    color: inherit;
+    color: #8C8665;
   }
 
 h1 {
     font-family: sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 3px;   
     color: #8C8665;
 
@@ -52,7 +52,8 @@ h1 {
     list-style-type: none;
     font-size: 125%;
     letter-spacing: 2px;
-    padding-top: 10px;    
+    padding-top: 10px;  
+    text-align: right;  
 }
 
 #menu > li {
@@ -103,7 +104,22 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    
+  }
+
+  #social-networks {
+    text-align: center;
+    font-size: 18px;
+    color: #8C8665;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
+  #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #8C8665;
   }
 
   /*media query for tablets and larger >768px*/
