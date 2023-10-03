@@ -25,9 +25,9 @@ header {
     font-family: sans-serif;
     background-color: #C2BB98;
     padding: 0 1rem;
-    /*either the position or z index is causing the footer to move to the top - why?*/
     position: fixed;
     z-index: 99;
+    width: 100%;
   }
 
 h1 {
@@ -39,11 +39,15 @@ main {
     background-color: #DEAEB5;
     font-family: sans-serif;
     flex: 1 0 auto;
+    padding-top: 100px;
 }
 
 footer {
     margin-top: auto;
     background-color: #ffffff;
     font-family: sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
   }
