@@ -109,7 +109,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-vlada-karpovich-4534691\ resized.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-vlada-karpovich-4534691\ -\ cropped\ 1.jpg") no-repeat center center/cover;
 }
 
 #what-is-yoga h2 {
@@ -141,6 +141,7 @@ main {
 
 #benefits-title {
     margin-top: 10px;
+    /*the overflow issue appears to be stopping me from adding bottom margin*/
     margin-bottom: 15px;
     padding-left: 15px;
     color: #8C8665;
