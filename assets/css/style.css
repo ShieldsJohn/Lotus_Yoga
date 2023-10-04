@@ -96,10 +96,18 @@ nav {
 }
 
 main {
-    background-color: #DEAEB5;
+    /*background-color: #DEAEB5;*/
     font-family: sans-serif;
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 24px;
+}
+
+/*hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-vlada-karpovich-4534691.jpg") no-repeat center center/cover;
+
 }
 
 footer {
@@ -162,7 +170,7 @@ footer {
     /*main content*/
     main {
         /*push main content down to accomodate larger header*/
-        margin-top: 80px;
+        margin-top: 77px;
     }
   }
 
