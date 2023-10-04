@@ -96,7 +96,7 @@ nav {
 }
 
 main {
-    /*background-color: #DEAEB5;*/
+    background-color: #ffffff;
     font-family: sans-serif;
     flex: 1 0 auto;
     margin-top: 24px;
@@ -106,8 +106,27 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-vlada-karpovich-4534691.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-vlada-karpovich-4534691\ resized.jpg") no-repeat center center/cover;
+}
 
+#what-is-yoga h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+#wiy-p1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#wiy-p2 {
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 footer {
@@ -180,5 +199,16 @@ footer {
         border-bottom: 1px solid #8C8665;
     }
 
+    #hero {
+        height: 700px;
+    }
 
+
+  }
+
+  /*v.large laptop screens >1440px*/
+  @media screen and (min-width: 1440px) {
+    #hero {
+        height: 800px;
+    }
   }
