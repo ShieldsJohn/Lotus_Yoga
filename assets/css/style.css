@@ -21,6 +21,7 @@ flex-direction: column;
 color: #3a3a3a;
 background-color: #DEAEB5;
 
+
 }
 
 /*header font*/
@@ -100,7 +101,9 @@ main {
     font-family: sans-serif;
     flex: 1 0 auto;
     margin-top: 24px;
+    
 }
+
 
 /*hero section*/
 #hero {
@@ -112,21 +115,45 @@ main {
 #what-is-yoga h2 {
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 5px;
+    padding-left: 15px;
+    color: #8C8665;
+    letter-spacing: 2px;
+    
 }
 
 #wiy-p1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #8C8665;
 }
 
 #wiy-p2 {
-    margin-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #8C8665;
     
+}
+
+#benefits-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    color: #8C8665;
+    letter-spacing: 2px;
+}
+
+#benefits {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #8C8665;
 }
 
 footer {
