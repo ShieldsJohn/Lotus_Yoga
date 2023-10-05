@@ -114,7 +114,7 @@ main {
 #what-is-yoga h2 {
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 15px;
+    padding-left: 0px;
     color: #8C8665;
     letter-spacing: 2px;
     text-align: center;
@@ -143,7 +143,7 @@ main {
     margin-top: 10px;
     /*the overflow issue appears to be stopping me from adding bottom margin*/
     margin-bottom: 15px;
-    padding-left: 15px;
+    padding-left: 0px;
     color: #8C8665;
     letter-spacing: 2px;
     text-align: center;
@@ -152,7 +152,7 @@ main {
 #benefits {
     margin-top: 10px;
     margin-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 15px;
     font-size: 15px;
     color: #8C8665;
@@ -163,9 +163,26 @@ main {
 
 #newsletter {
     text-align: center;
+    color: #8C8665;
+}  
+
+#newsletter a {
+    color: #8C8665;
+}
+
+#visit-tutorials {
     background-color: #8C8665;
     color: #ffffff;
-}   
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#visit-tutorials a {
+    color: #ffffff;
+}
 
 footer {
     margin-top: auto;
