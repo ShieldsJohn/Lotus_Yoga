@@ -117,6 +117,7 @@ main {
     padding-left: 15px;
     color: #8C8665;
     letter-spacing: 2px;
+    text-align: center;
     
 }
 
@@ -145,16 +146,26 @@ main {
     padding-left: 15px;
     color: #8C8665;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 #benefits {
     margin-top: 10px;
     margin-bottom: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 15px;
     font-size: 15px;
     color: #8C8665;
+    list-style-type: none;
+    text-align: center;
+    
 }
+
+#newsletter {
+    text-align: center;
+    background-color: #8C8665;
+    color: #ffffff;
+}   
 
 footer {
     margin-top: auto;
