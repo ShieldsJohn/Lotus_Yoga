@@ -9,6 +9,10 @@
     box-sizing: 0;
 }
 
+html {
+    scroll-padding-top: 55px;
+}
+
 /*general styles*/
 body {
 min-height: 100vh;
