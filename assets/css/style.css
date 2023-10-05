@@ -321,3 +321,24 @@ footer {
     font-size: 12px;
     line-height: 20px;
   }
+
+  /*Newsletter page*/
+  #newsletter-intro {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-style:italic
+
+  }
+
+  #newsletter-section {
+    
+  }
+
+  #newsletter-form {
+  
+  }
+
+  #newsletter-main {
+    background: url("../images/Advanced\ -\ Bow\ from\ all\ fours\ \(L\)\ b.webp") no-repeat center center/cover;
+  }

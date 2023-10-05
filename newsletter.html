@@ -30,8 +30,37 @@
             </ul>
         </nav>
     </header>
-    <main>
-        Continue your transfomative journey towards inner harmony and physical wellbeing with a weekly newsleter, delivered directly to your inbox!
+    <main id="newsletter-main">
+        <div id="newsletter-intro">
+        <strong>Continue your transfomative journey towards inner harmony and physical wellbeing with a weekly newsletter, delivered directly to your inbox!</strong>
+        </div>
+        <section id="newsletter-section">
+            <form id="newsletter-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2>Subscribe to our newsletter!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                <label for="beginner">Beginner</label>
+                <input type="radio" name="Yoga level" id="beginner" value="beginner" required checked>
+                </div>
+                <div>
+                    <label for="intermediate">Intermediate</label>
+                    <input type="radio" name="Yoga level" value="intermediate" required>
+                </div>
+                <div>
+                    <label for="advanced">Advanced</label>
+                    <input type="radio" name="Yoga level" id="advanced" value="advanced" required>
+                </div>
+                <button type="submit" class="subscribe-button">Realign those Chakras!</button>
+            </form>
+        </section>   
     </main>
     <footer>
         <ul id="social-networks">
