@@ -10,7 +10,7 @@
 }
 
 html {
-    scroll-padding-top: 55px;
+    scroll-padding-top: 60px;
 }
 
 /*general styles*/
@@ -290,7 +290,7 @@ footer {
 
   .titles {
     margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-bottom: 5px;    
     display: flex;
     justify-content: center;
     color: #c1675f;
@@ -304,9 +304,11 @@ footer {
   h4 {
     display: flex;
     justify-content: center;
-    color: #8C8665;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: #ffffff;
+    background-color: #8C8665;
+    padding: 10px;
+    margin-top: 10px;
+    
   }
 
   #instructions {
