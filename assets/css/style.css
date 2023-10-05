@@ -98,7 +98,7 @@ main {
     background-color: #ffffff;
     font-family: sans-serif;
     flex: 1 0 auto;
-    margin-top: 38px;
+    margin-top: 50px;
     margin-bottom: 60px;
     
 }
@@ -115,7 +115,7 @@ main {
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 0px;
-    color: #8C8665;
+    color: #c1675f;
     letter-spacing: 2px;
     text-align: center;
     
@@ -141,17 +141,16 @@ main {
 
 #benefits-title {
     margin-top: 10px;
-    /*the overflow issue appears to be stopping me from adding bottom margin*/
     margin-bottom: 15px;
     padding-left: 0px;
-    color: #8C8665;
+    color: #c1675f;
     letter-spacing: 2px;
     text-align: center;
 }
 
 #benefits {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding-left: 0px;
     padding-right: 15px;
     font-size: 15px;
@@ -167,16 +166,18 @@ main {
 }  
 
 #newsletter a {
-    color: #8C8665;
+    color: #c1675f;
 }
 
 #visit-tutorials {
     background-color: #8C8665;
     color: #ffffff;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -266,4 +267,51 @@ footer {
     #hero {
         height: 800px;
     }
+  }
+
+  /*Tutorials page*/
+
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #title-links {
+    font-size: 15px;
+    color: #c1675f;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .titles {
+    margin-top: 15px;
+    margin-bottom: 15px;    
+    display: flex;
+    justify-content: center;
+    color: #c1675f;
+    
+  }
+
+  hr {
+    color: #8C8665;
+  }
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    color: #8C8665;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #instructions {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #8C8665;
+    list-style-type: decimal;
+    font-size: 12px;
+    line-height: 20px;
   }
