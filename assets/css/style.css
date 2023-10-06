@@ -331,14 +331,48 @@ footer {
 
   }
 
-  #newsletter-section {
-    
+  #subscribe-title {
+    padding-bottom: 10px;
   }
 
-  #newsletter-form {
-  
+  #newsletter-section {
+    padding: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 250px;
+    border-style: initial;
+    border-radius: 3px;
+  }
+
+  .text-input {
+    background-color: rgba(140, 134, 101, 0.5);
+    width: 90%;
+    height: 20px;
+    margin: 5px 10px;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid #ffffff;
   }
 
   #newsletter-main {
     background: url("../images/Advanced\ -\ Bow\ from\ all\ fours\ \(L\)\ b.webp") no-repeat center center/cover;
+  }
+
+  #newsletter-form {
+    color: #ffffff;
+    background-color: rgba(140, 134, 101, 0.5);
+    padding: 20px;
+  }
+
+  .subscribe-button {
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #c1675f;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
   }
