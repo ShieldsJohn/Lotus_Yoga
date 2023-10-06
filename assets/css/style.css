@@ -311,6 +311,17 @@ footer {
     
   }
 
+  .videos {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
   #instructions {
     margin-left: 10px;
     margin-right: 10px;
