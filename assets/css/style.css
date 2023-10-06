@@ -327,12 +327,15 @@ footer {
     padding: 10px;
     display: flex;
     justify-content: center;
-    font-style:italic
+    font-style:italic;
+    background-color: rgba(205, 92, 92, 0.5);
+    text-align: center;
 
   }
 
   #subscribe-title {
     padding-bottom: 10px;
+    
   }
 
   #newsletter-section {
@@ -364,6 +367,10 @@ footer {
     padding: 20px;
   }
 
+  .firstlastemail {
+    padding-left: 10px;
+  }
+
   .subscribe-button {
     border-radius: 3px;
     background-color: #ffffff;
@@ -376,3 +383,16 @@ footer {
     position: relative;
     left: 10px;
   }
+
+.subscribe-button:hover {
+    background-color: #c1675f;
+    color: #ffffff;
+}
+
+  .radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+

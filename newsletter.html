@@ -37,27 +37,29 @@
         </div>
         <section id="newsletter-section">
             <form id="newsletter-form" method="post" action="https://formdump.codeinstitute.net">
-                <h3 id="subscribe-title">Subscribe to our newsletter!</h3>
-                <label for="first-name">First Name</label>
+                <h3 id="subscribe-title">Subscribe to our newsletter</h3>
+                <label for="first-name" class="firstlastemail">First Name</label>
                 <input type="text" name="first-name" id="first-name" class="text-input" required>
                 <br>
-                <label for="last-name">Last Name</label>
+                <label for="last-name" class="firstlastemail">Last Name</label>
                 <input type="text" name="last-name" id="last-name" class="text-input" required>
                 <br>
-                <label for="email-address">Email Address</label>
+                <label for="email-address" class="firstlastemail">Email Address</label>
                 <input type="email" name="email-address" id="email-address" class="text-input" required>
                 <br>
                 <div class="radio-buttons">
+                <div>    
                     <label for="beginner">Beginner</label>
                     <input type="radio" name="Yoga level" id="beginner" value="beginner" required checked>
                 </div>
                 <div>
                     <label for="intermediate">Intermediate</label>
-                    <input type="radio" name="Yoga level" value="intermediate" required>
+                    <input type="radio" name="Yoga level" id="intermediate" value="intermediate" required>
                 </div>
                 <div>
                     <label for="advanced">Advanced</label>
                     <input type="radio" name="Yoga level" id="advanced" value="advanced" required>
+                </div>
                 </div>
                 <button type="submit" class="subscribe-button"><strong>Realign those Chakras!</strong></button>
             </form>
