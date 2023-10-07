@@ -199,72 +199,7 @@ footer {
     color: #8C8665;
   }
 
-  /*media query for tablets and larger =>768px*/
-  @media screen and (min-width: 768px) {
-    /*header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1 rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-        justify-content: flex-end;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 400%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /*main content*/
-    main {
-        /*push main content down to accomodate larger header*/
-        margin-top: 77px;
-    }
-
-    html {
-        scroll-padding-top: 85px;
-    }
-    #instructions {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    ul {
-        list-style-type: none;
-    }
-}
-
-  /*Large devices =>992px*/
-  @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #8C8665;
-    }
-
-    #hero {
-        height: 700px;
-    }
-  }
-
-  /*v.large laptop screens =>1440px*/
-  @media screen and (min-width: 1440px) {
-    #hero {
-        height: 800px;
-    }
-  }
+ 
 
   /*Tutorials page*/
 
@@ -381,4 +316,94 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+  }
+
+   /*media query for tablets and larger =>768px*/
+   @media screen and (min-width: 768px) {
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1 rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        justify-content: flex-end;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 400%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*main content*/
+    main {
+        /*push main content down to accomodate larger header*/
+        margin-top: 77px;
+    }
+
+    /*Turioals page*/
+
+    html {
+        scroll-padding-top: 85px;
+    }
+    #instructions {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+    }
+
+    /*newletter page*/
+    .text-input {
+        width: 80%;
+      }
+
+      
+    .radio-buttons {
+        width: 80%;
+        padding-left: 12px;
+      }
+
+    .subscribe-button {
+        width: 80%;
+    }
+
+    #newsletter-form {
+        width: 50%;
+    }
+
+    }
+
+  /*Large devices =>992px*/
+  @media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #8C8665;
+    }
+
+    #hero {
+        height: 700px;
+    }
+
+  }
+
+  /*v.large laptop screens =>1440px*/
+  @media screen and (min-width: 1440px) {
+    #hero {
+        height: 800px;
+    }
   }
