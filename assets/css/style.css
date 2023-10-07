@@ -1,6 +1,5 @@
-
 /*goole fonts import*/
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /*asterix wildcard selector to override default browser styling*/
 * {
@@ -15,18 +14,18 @@ html {
 
 /*general styles*/
 body {
-min-height: 100vh;
-height: 100%;
-display: flex;
-flex-direction: column;
-color: #3a3a3a;
-background-color: #ffffff;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    background-color: #ffffff;
 }
 
 /*header font*/
 header {
     font-size: 10px;
-    color:#8C8665;
+    color: #8C8665;
     font-family: sans-serif;
     background-color: #ffffff;
     padding: 0 1rem;
@@ -34,20 +33,20 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     align-items: baseline;
-  }
+}
 
-  header a {
+header a {
     text-decoration: none;
     color: #8C8665;
-  }
+}
 
 h1 {
     font-family: sans-serif;
     font-size: 25px;
-    letter-spacing: 3px;   
+    letter-spacing: 3px;
     color: #8C8665;
 }
 
@@ -55,11 +54,11 @@ h1 {
     list-style-type: none;
     font-size: 125%;
     letter-spacing: 2px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
 
-#menu > li {
-    margin-bottom: 1em; 
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .active {
@@ -97,7 +96,7 @@ main {
     font-family: sans-serif;
     flex: 1 0 auto;
     margin-top: 50px;
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
 }
 
 /*hero section*/
@@ -113,7 +112,7 @@ main {
     padding-left: 0px;
     color: #c1675f;
     letter-spacing: 2px;
-    text-align: center;  
+    text-align: center;
 }
 
 #wiy-p1 {
@@ -150,13 +149,13 @@ main {
     font-size: 15px;
     color: #8C8665;
     list-style-type: none;
-    text-align: center; 
+    text-align: center;
 }
 
 #newsletter {
     text-align: center;
     color: #8C8665;
-}  
+}
 
 #newsletter a {
     color: #c1675f;
@@ -181,9 +180,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
 
-  #social-networks {
+#social-networks {
     text-align: center;
     font-size: 18px;
     color: #8C8665;
@@ -191,85 +190,85 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-  }
+}
 
-  #social-networks i {
+#social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #8C8665;
-  }
+}
 
- 
 
-  /*Tutorials page*/
 
-  h1 {
+/*Tutorials page*/
+
+h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
+}
 
-  #title-links {
+#title-links {
     font-size: 15px;
     color: #c1675f;
     display: flex;
     justify-content: space-around;
-  }
+}
 
-  .titles {
+.titles {
     margin-top: 15px;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
     color: #c1675f;
-  }
+}
 
-  hr {
+hr {
     color: #8C8665;
-  }
+}
 
-  h4 {
+h4 {
     display: flex;
     justify-content: center;
     color: #ffffff;
     background-color: #8C8665;
     padding: 10px;
     margin-top: 10px;
-  }
+}
 
 
-  #instructions {
+#instructions {
     margin: 10px;
     color: #8C8665;
     list-style-type: none;
     font-size: 12px;
     line-height: 20px;
-  }
+}
 
-  /*Newsletter page*/
-  #newsletter-intro {
+/*Newsletter page*/
+#newsletter-intro {
     padding: 10px;
     display: flex;
     justify-content: center;
-    font-style:italic;
+    font-style: italic;
     background-color: rgba(205, 92, 92, 0.5);
     text-align: center;
-  }
+}
 
-  #subscribe-title {
+#subscribe-title {
     padding-bottom: 10px;
-  }
+}
 
-  #newsletter-section {
+#newsletter-section {
     padding: 10px;
     font-weight: 400;
     position: relative;
     top: 250px;
     border-style: initial;
     border-radius: 3px;
-  }
+}
 
-  .text-input {
+.text-input {
     background-color: rgba(140, 134, 101, 0.5);
     width: 90%;
     height: 20px;
@@ -277,23 +276,23 @@ footer {
     display: flex;
     align-items: flex-end;
     border: 2px solid #ffffff;
-  }
+}
 
-  #newsletter-main {
+#newsletter-main {
     background: url("../images/Advanced\ -\ Bow\ from\ all\ fours\ \(L\)\ b\ resized\ 1.webp") no-repeat center center/cover;
-  }
+}
 
-  #newsletter-form {
+#newsletter-form {
     color: #ffffff;
     background-color: rgba(140, 134, 101, 0.5);
     padding: 20px;
-  }
+}
 
-  .firstlastemail {
+.firstlastemail {
     padding-left: 10px;
-  }
+}
 
-  .subscribe-button {
+.subscribe-button {
     border-radius: 3px;
     background-color: #ffffff;
     color: #c1675f;
@@ -304,22 +303,23 @@ footer {
     justify-content: center;
     position: relative;
     left: 10px;
-  }
+}
 
 .subscribe-button:hover {
     background-color: #c1675f;
     color: #ffffff;
 }
 
-  .radio-buttons {
+.radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
-  }
+}
 
-   /*media query for tablets and larger =>768px*/
-   @media screen and (min-width: 768px) {
+/*media query for tablets and larger =>768px*/
+@media screen and (min-width: 768px) {
+
     /*header*/
     nav {
         display: block;
@@ -333,7 +333,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
         justify-content: flex-end;
     }
@@ -359,11 +359,13 @@ footer {
     html {
         scroll-padding-top: 85px;
     }
+
     #instructions {
         display: flex;
         justify-content: center;
         text-align: center;
     }
+
     ul {
         list-style-type: none;
     }
@@ -371,13 +373,12 @@ footer {
     /*newletter page*/
     .text-input {
         width: 80%;
-      }
+    }
 
-      
     .radio-buttons {
         width: 80%;
         padding-left: 12px;
-      }
+    }
 
     .subscribe-button {
         width: 80%;
@@ -387,10 +388,10 @@ footer {
         width: 50%;
     }
 
-    }
+}
 
-  /*Large devices =>992px*/
-  @media screen and (min-width: 992px) {
+/*Large devices =>992px*/
+@media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #8C8665;
     }
@@ -399,11 +400,21 @@ footer {
         height: 700px;
     }
 
-  }
+}
 
-  /*v.large laptop screens =>1440px*/
-  @media screen and (min-width: 1440px) {
+/*v.large laptop screens =>1440px*/
+@media screen and (min-width: 1440px) {
     #hero {
         height: 800px;
     }
-  }
+/*newsletter page*/
+    #newsletter-section {
+        position: relative;
+        top: 300px;
+    }
+
+    #newsletter-form {
+        width: 25%;
+
+    }
+}
