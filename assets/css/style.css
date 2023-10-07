@@ -103,16 +103,14 @@ main {
     font-family: sans-serif;
     flex: 1 0 auto;
     margin-top: 50px;
-    margin-bottom: 60px;
-    
+    margin-bottom: 60px; 
 }
-
 
 /*hero section*/
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pexels-vlada-karpovich-4534691\ -\ cropped\ 1.webp") no-repeat center center/cover;
+    background: url("../images/pexels-vlada-karpovich-4534691\ -\ cropped\ 1\ resized.webp") no-repeat center center/cover;
 }
 
 #what-is-yoga h2 {
@@ -121,8 +119,7 @@ main {
     padding-left: 0px;
     color: #c1675f;
     letter-spacing: 2px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 #wiy-p1 {
@@ -140,7 +137,6 @@ main {
     padding-right: 15px;
     font-size: 15px;
     color: #8C8665;
-    
 }
 
 #benefits-title {
@@ -160,8 +156,7 @@ main {
     font-size: 15px;
     color: #8C8665;
     list-style-type: none;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 #newsletter {
@@ -181,8 +176,7 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 10px;
-
+    padding-bottom: 10px
 }
 
 #visit-tutorials a {
@@ -294,7 +288,6 @@ footer {
     display: flex;
     justify-content: center;
     color: #c1675f;
-    
   }
 
   hr {
@@ -308,7 +301,6 @@ footer {
     background-color: #8C8665;
     padding: 10px;
     margin-top: 10px;
-    
   }
 
 
@@ -331,12 +323,10 @@ footer {
     font-style:italic;
     background-color: rgba(205, 92, 92, 0.5);
     text-align: center;
-
   }
 
   #subscribe-title {
     padding-bottom: 10px;
-    
   }
 
   #newsletter-section {
