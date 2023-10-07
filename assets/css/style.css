@@ -199,7 +199,7 @@ footer {
     color: #8C8665;
   }
 
-  /*media query for tablets and larger >768px*/
+  /*media query for tablets and larger =>768px*/
   @media screen and (min-width: 768px) {
     /*header*/
     nav {
@@ -208,7 +208,6 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1 rem;
-    
     }
 
     #menu {
@@ -235,9 +234,21 @@ footer {
         /*push main content down to accomodate larger header*/
         margin-top: 77px;
     }
-  }
 
-  /*Large devices >992px*/
+    html {
+        scroll-padding-top: 85px;
+    }
+    #instructions {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+    }
+}
+
+  /*Large devices =>992px*/
   @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #8C8665;
@@ -248,7 +259,7 @@ footer {
     }
   }
 
-  /*v.large laptop screens >1440px*/
+  /*v.large laptop screens =>1440px*/
   @media screen and (min-width: 1440px) {
     #hero {
         height: 800px;
@@ -295,7 +306,7 @@ footer {
   #instructions {
     margin: 10px;
     color: #8C8665;
-    list-style-type: decimal;
+    list-style-type: none;
     font-size: 12px;
     line-height: 20px;
   }
