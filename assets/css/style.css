@@ -338,6 +338,7 @@ h4 {
 
     #menu {
         display: flex;
+        font-size: 15px;
     }
 
     #menu>li {
@@ -371,6 +372,7 @@ h4 {
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 15px;
     }
 
     ul {
@@ -413,6 +415,11 @@ h4 {
 @media screen and (min-width: 1440px) {
     #hero {
         height: 800px;
+    }
+
+    .instructions{
+        font-size: 17px;
+        line-height: 25px;
     }
 /*newsletter page*/
     #newsletter-section {
