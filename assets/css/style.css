@@ -1,6 +1,4 @@
-/*goole fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /*asterix wildcard selector to override default browser styling*/
 * {
     padding: 0;
@@ -20,6 +18,7 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     background-color: #ffffff;
+    font-family: 'Oswald', sans-serif; 
 }
 
 /*header font*/
@@ -94,7 +93,8 @@ nav {
 
 main {
     background-color: #ffffff;
-    font-family: sans-serif;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
     flex: 1 0 auto;
     margin-top: 50px;
     margin-bottom: 60px;
@@ -121,16 +121,18 @@ main {
     margin-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
-    color: #8C8665;
+    color: #3a3a3a;
 }
 
 #wiy-p2 {
     margin-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
-    color: #8C8665;
+    color: #3a3a3a;
 }
 
 #benefits-title {
@@ -147,8 +149,9 @@ main {
     margin-bottom: 10px;
     padding-left: 0px;
     padding-right: 15px;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
-    color: #8C8665;
+    color: #3a3a3a;
     list-style-type: none;
     text-align: center;
 }
@@ -225,7 +228,7 @@ hr {
     color: #8C8665;
 }
 
-h4 {
+.pose-titles {
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -247,7 +250,8 @@ h4 {
 
 .instructions {
     margin: 10px;
-    color: #8C8665;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
     list-style-type: none;
     font-size: 12px;
     line-height: 20px;
@@ -429,6 +433,5 @@ h4 {
 
     #newsletter-form {
         width: 25%;
-
     }
 }
