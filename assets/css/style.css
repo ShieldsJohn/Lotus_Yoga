@@ -454,10 +454,10 @@ hr {
 /*newsletter page*/
     #newsletter-section {
         position: relative;
-        top: 300px;
+        top: 400px;
     }
 
     #newsletter-form {
-        width: 50%;
+        width: 25%;
     }
 }
