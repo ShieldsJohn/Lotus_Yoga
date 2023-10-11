@@ -329,6 +329,28 @@ hr {
     padding-bottom: 10px;
 }
 
+@media screen and (min-height: 480px) {
+    #hero {
+        height: 400px;
+    }
+
+    #newsletter-section {
+        top: 15px;
+    }
+}
+
+@media screen and (min-height: 667px) {
+    #newsletter-section {
+        top: 100px;
+    }
+}
+
+@media screen and (min-height: 844px) {
+    #newsletter-section {
+        top: 250px;
+    }
+}
+
 /*media query for tablets and larger =>768px*/
 @media screen and (min-width: 768px) {
 
@@ -401,6 +423,10 @@ hr {
         width: 50%;
     }
 
+    #newsletter-section {
+        top: 250px;
+    }
+
 }
 
 /*Large devices =>992px*/
@@ -410,12 +436,12 @@ hr {
     }
 
     #hero {
-        height: 700px;
+        height: 600px;
     }
 
 }
 
-/*v.large laptop screens =>1440px*/
+/*v.large screens =>1440px*/
 @media screen and (min-width: 1440px) {
     #hero {
         height: 800px;
@@ -432,6 +458,6 @@ hr {
     }
 
     #newsletter-form {
-        width: 25%;
+        width: 50%;
     }
 }
