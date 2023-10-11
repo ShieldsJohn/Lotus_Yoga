@@ -233,7 +233,7 @@ hr {
     display: flex;
     justify-content: center;
     color: #ffffff;
-    background-color: #8C8665;
+    background-color: #3a3a3a;
     padding: 10px;
     margin-top: 10px;
 }
@@ -297,7 +297,7 @@ hr {
 
 #newsletter-form {
     color: #ffffff;
-    background-color: rgba(140, 134, 101, 0.5);
+    background-color: rgba(140, 134, 101, 0.75);
     padding: 20px;
 }
 
