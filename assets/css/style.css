@@ -329,6 +329,11 @@ hr {
     justify-content: space-between;
     padding-bottom: 10px;
 }
+
+.radio-titles {
+    font-size: .75rem;
+}
+
 /*media query for iphone 8 and shorter viewport phones*/
 @media screen and (min-height: 480px) {
     #hero {
@@ -454,7 +459,7 @@ hr {
 /*newsletter page*/
     #newsletter-section {
         position: relative;
-        top: 400px;
+        top: 250px;
     }
 
     #newsletter-form {
