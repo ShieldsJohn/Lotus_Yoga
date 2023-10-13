@@ -4,7 +4,7 @@
 
 Lotus Yoga is a website which is a resource for anyone interested in or currently practising yoga.  The site aims to explain what yoga is, share the benefits of yoga and provide a collection of videos for beginner, intermediate and advanced users.  Lotus Yoga also encourages signing up to our newsletter which will motivate users to continue their yoga journey.
 
-![Image showing the responsive design of the Lotus Yoga website](README_images/lotus_yoga_amiresponsive_screenshot_1.PNG)
+![Image showing the responsive design of the Lotus Yoga website](README_images/lotus_yoga_amiresponsive_screenshot_1.png)
 
 ## User Experience (UX)
 
@@ -53,7 +53,7 @@ o	Colour Scheme
 o	Video Tutorials
 -	There are nine videos in total, three for each level of Beginner, Intermediate and Advanced.  They are short demonstrations of yoga poses, along with text instructions to break down the sequential steps to successfully achieve the pose.  Each level category is hyperlinked to allow visitors to jump to the required level on the page.
 
-![Image showing the Tutorials page](README_images/lotus_yoga_features_screenshot_videos_and_instructions.PNG)
+![Image showing the Tutorials page](README_images/lotus_yoga_features_screenshot_videos_and_instructions.png)
 
 o	Mobile-first responsive design
 
@@ -61,11 +61,11 @@ o	Mobile-first responsive design
 
 *Mobile dropdown navbar*
 
-![Image showing the mobile dropdown navbar](README_images/lotus_yoga_features_responsive_navbar_mobile.PNG)
+![Image showing the mobile dropdown navbar](README_images/lotus_yoga_features_responsive_navbar_mobile.png)
 
 *Tablet navbar*
 
-![Image showing the tablet navbar](README_images/lotus_yoga_features_responsive_navbar_tablet.PNG)
+![Image showing the tablet navbar](README_images/lotus_yoga_features_responsive_navbar_tablet.png)
 
 o	Future Features under consideration
 -	Updated video content with verbal instructions.
@@ -101,19 +101,19 @@ I used the W3C Markup Validator (for HMTL) and the W3C CSS Validator (for CSS) t
 
 *HTML Home page*
 
-![Image showing w3 validation result for home page](README_images/w3_html_validation_home_page_2.PNG)
+![Image showing w3 validation result for home page](README_images/w3_html_validation_home_page_2.png)
 
 *HTML Tutorials page*
 
-![Image showing w3 validation result for tutorials page](README_images/w3_html_validation_tutorials_2.PNG)
+![Image showing w3 validation result for tutorials page](README_images/w3_html_validation_tutorials_2.png)
 
 *HTML Newsletter page*
 
-![Image showing w3 validation result for newsletter page](README_images/w3_html_validation_newsletter_2.PNG)
+![Image showing w3 validation result for newsletter page](README_images/w3_html_validation_newsletter_2.png)
 
 *CSS*
 
-![Image showing w3c validation result for css](README_images/w3c_css_validation_2.PNG)
+![Image showing w3c validation result for css](README_images/w3c_css_validation_2.png)
 
 ## Testing User Stories from User Experience (UX) Section
 **First Time Visitor Goals**
@@ -171,7 +171,7 @@ o	To subscribe to the newsletter for more information on yoga and website update
 
 **My results:**
 
-![Image showing lighthouse results for tutorials page](README_images/lotus_yoga-tutorials_page-lighthouse_test_2.PNG)
+![Image showing lighthouse results for tutorials page](README_images/lotus_yoga-tutorials_page-lighthouse_test_2.png)
 
 **Code Institute results:**
 
